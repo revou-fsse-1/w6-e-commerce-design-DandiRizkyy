@@ -6,11 +6,11 @@
 
 ---
 
-### Given Product ID and Return Product Details 🚩
+![Activity Diagram](/assets/activity-diagram.png)
 
 ![Given Product ID and Return Product Details](/assets/given-id.png)
 
-In this section, im creating a High Level Design using MVC (Model - View - Controller) Architecture. It explain the flow of the program when given certain ID and returning them in the end. The reason why im using MVC architecture is because it's advantage in scaling into larger applications and easy to maintain.
+In this section, im creating a High Level Design using MVC (Model - View - Controller) Architecture. It explain the flow of the program when given certain ID and returning them in the end. The reason why im using MVC architecture is because it's advantage in scaling into larger applications, dependable and easy to maintain.
 
 ### Creating Order 📁
 
