@@ -22,7 +22,7 @@ Image above shows the flow of the create order using sequence diagrams.
 Pseudocode Version 1 :
 
 1. Create function "createOrder()"
-2. Inside those function, create new variable "payment" for payment method using paymentAPI.
+2. Inside those function, create new variable "totalProcess" and "paymentMethod" for payment process using paymentAPI.
 4. Declare boolean expression for payment method (if else)
 5. If the payment successful, return Success. If the payment failed, return PaymentError.
 6. Create new function "calculatePrice(basket)" and create an array inside of it.
