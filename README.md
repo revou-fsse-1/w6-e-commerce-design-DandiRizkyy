@@ -1,18 +1,18 @@
-## Dandi Rizky E-Commerce Design
+# Dandi Rizky E-Commerce Design <img src="https://raw.githubusercontent.com/DandiRizkyy/slackmoji/master/emoji/blob/blob-wave-gif.gif" width="50px" height="50px" alt="hello">
 
 ---
 
-## High Level Design
+## High Level Design 📶
 
 ---
 
-### Given Product ID and Return Product Details
+### Given Product ID and Return Product Details 🚩
 
 ![Given Product ID and Return Product Details](/assets/given-id.png)
 
 In this section, im creating a High Level Design using MVC (Model - View - Controller) Architecture. It explain the flow of the program when given certain ID and returning them in the end. The reason why im using MVC architecture is because it's advantage in scaling into larger applications and easy to maintain.
 
-### Creating Order
+### Creating Order 📁
 
 ![Create Order](/assets/creating-order.png)
 
@@ -57,6 +57,6 @@ calculatePrice(basket){
 
 ```
 
-### Complexity Analysis
+### Complexity Analysis 📐
 
 Complexity Analysis for `calculatePrice()` function is $O(n)$, because they have loop and we need to iterate through each of the items inside those array. It means those loop have input of $n$, and n input means the number of operation will grow based on the number of input which is $n$.
